@@ -8,7 +8,7 @@ import edit from '../assets/images/referrals/edit.svg'
 import people from '../assets/images/referrals/people.svg'
 import usersPlu from '../assets/images/referrals/usersPlu.svg'
 
-const BlockQRCode: FC = () => {
+const BlockQRCode = () => {
   // eslint-disable-next-line no-unused-vars
   const [copy, setCopy] = useState(false)
   const [visible1, setVisible1] = useState(false)

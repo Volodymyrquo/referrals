@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
 import classNames from 'classnames'
-import { people } from '../assets/helpers/people'
+import { people } from '../assets/helpers/people.js'
 import copyImg from '../assets/images/referrals/copy1.svg'
 import arrowSort from '../assets/images/referrals/Sort.svg'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
