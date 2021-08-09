@@ -1,4 +1,5 @@
 import React from 'react'
+import 'common-library/src/assets/scss/styles.scss'
 import BlockCalculator from './components/BlockCalculator.jsx'
 import BlockCode from './components/BlockCode.jsx'
 import BlockInviteUsers from './components/BlockInviteUsers.jsx'

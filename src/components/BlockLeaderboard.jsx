@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { v4 as uuidv4 } from 'uuid'
 import arrow from '../assets/images/users/arrow.svg'
 import monay from '../assets/images/users/monay.svg'
@@ -52,10 +51,10 @@ const BlockLeaderboard = () => {
           ))}
         </tbody>
       </table>
-      <Link to='/referrals' className='leaderboard-block__link'>
+      <a href='/referrals' className='leaderboard-block__link'>
         Go to Leaderboard page
         <img src={arrow} alt='arrow' />
-      </Link>
+      </a>
     </div>
   )
 }
