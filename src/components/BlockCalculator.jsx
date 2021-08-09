@@ -68,7 +68,13 @@ const BlockCalculator = ({ nameBronzeBtn = 'Basic' }) => {
         </div>
       </div>
 
-      <div className='block-calculator__box-5'>
+      <div
+        className='block-calculator__box-5'
+        style={{
+          backgroundImage: `url(${
+            require('../assets/images/users/123.jpg').default
+          })`,
+        }}>
         <h3 className='block-calculator__title-1'>Your Earnings</h3>
         <div className='block-calculator__box-5-form'>
           <label className='block-calculator__box-5-calculate-label' htmlFor=''>
