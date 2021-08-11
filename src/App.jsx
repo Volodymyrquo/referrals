@@ -8,7 +8,7 @@ import BlockQRCode from './components/BlockQRCode.jsx'
 
 const App = () => {
   return (
-    <div style={{ padding: '30px' }}>
+    <div>
       <section className='referrals-page__header'>
         <div className='referrals-page__inner'>
           <BlockCalculator />
